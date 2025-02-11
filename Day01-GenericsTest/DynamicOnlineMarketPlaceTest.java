@@ -10,7 +10,7 @@ class DynamicOnlineMarketPlaceTest {
     private Product<BookCategory> book;
     private Product<ClothingCategory> shirt;
     private Product<GadgetCategory> mobilePhone;
-
+ 
     @BeforeEach
     void setUp() {
         catalog = new ProductCatalog();
