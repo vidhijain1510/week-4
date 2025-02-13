@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CountWordsInFileTest {
 
-    @Test
+    @Test 
     void testWordCountAndTopWords() throws IOException { 
         String fileContent = "Java is great. Java is powerful.\n"
                 + "Java is widely used. Java is fast.\n"
