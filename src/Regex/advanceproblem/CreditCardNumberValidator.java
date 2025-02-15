@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class CreditCardNumberValidator {
     public static boolean isValidCreditCard(String cardNumber) {
         //Regex for Visa (starts with 4, 16 digits) and MasterCard (starts with 5, 16 digits)
-        String regex = "^(4\\d{15}|5\\d{15})$";
+        String regex = "^(4\\d{15}|5\\d{15})$"; 
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(cardNumber);
